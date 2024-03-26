@@ -1,0 +1,125 @@
+body {
+    font-family: 'segoe ui light';
+    /* overflow-x: hidden; */
+}
+
+#home {
+    background-image: url(../images/bg1.jpg);
+    background-size: 100% 100%;
+}
+
+#home .home-icons {
+    bottom: 0.8rem;
+    left: 0.8rem;
+}
+
+#home .home-icons i {
+    width: 2.2rem;
+    height: 2.2rem;
+    font: 1.2rem !important;
+    transition: all 0.5s;
+}
+
+#home .home-icons i:hover {
+    color: tomato !important;
+    cursor: pointer;
+}
+
+.myNav nav {
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background-color: #080808 !important;
+
+}
+
+.myNav nav a {
+    color: white !important;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    transition: all 0.5s;
+}
+
+.myNav nav a:hover {
+    color: tomato !important;
+}
+
+
+#about {
+    background-image: url(../images/dots.png);
+}
+
+
+.header h3 {
+    font-size: 4rem !important;
+    color: #f1f1f1 !important;
+}
+
+.header h3,
+.header h2 {
+    letter-spacing: 0.8rem;
+
+}
+
+
+#services hr {
+    height: 0.2rem;
+    width: 25%;
+
+
+}
+
+#services .service:hover hr {
+    width: 50% !important;
+}
+
+#services .service:hover i,
+#services .service hr {
+    transition: all 0.5s;
+
+}
+
+#services .service:hover i {
+    color: rgb(240, 203, 204) !important;
+}
+
+
+
+
+
+#testmon {
+    background-color: rgb(180, 177, 177);
+}
+
+
+
+
+#testmon .myImg {
+    width: 10rem !important;
+    height: 10rem !important;
+}
+
+#testmon .carousel-indicators button {
+    width: 1rem !important;
+    height: 1rem !important;
+    border-radius: 50% !important;
+    background-color: tomato !important;
+}
+
+#testmon .carousel-indicators {
+    top: 85% !important;
+}
+
+
+
+
+
+@media screen and (max-width : 600px) {
+    html {
+        font-size: 10px !important;
+    }
+
+    #testmon .carousel-indicators {
+        top: 95% !important;
+    }
+}
