@@ -1,2 +1,3 @@
 # portfolio-Website
-front-end projects
+front-end project - fully responsive
+HTML | CSS | BootStrap | font-awesome 
